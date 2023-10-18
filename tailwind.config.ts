@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily : {
+        bodoni: ['Bodoni Moda', 'serif'],
+        sora: ['Sora', 'sans-serif']
       },
+      colors: {
+        primary: '#2f2f2f',
+        dark: '#111111',
+        light: '#f6f6f6',
+        main: '#ffcb74'
+      }
     },
   },
   plugins: [],
