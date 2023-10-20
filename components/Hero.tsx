@@ -4,10 +4,11 @@ import Image from 'next/image'
 import React from 'react'
 import CustomButton from './CustomButton'
 
-const Hero = () => {
 
+
+const Hero = () => {    
     const handleScroll = () => {
-
+        
     }
 
     return (

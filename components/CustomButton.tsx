@@ -5,7 +5,7 @@ const CustomButton = ({title, containerStyle, handleClick, btnType}: customButto
     return (
         <button
             disabled={false}
-            className={`${containerStyle}`}
+            className={`${containerStyle} transition-all duration-300`}
             onClick={handleClick}
             type={btnType || "button"}
         >
